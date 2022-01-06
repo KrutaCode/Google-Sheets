@@ -96,6 +96,11 @@ class Commodities:
         # Sorts the dictionary
         self.commodities = sorted(dictionary_items)
 
+    ##########################
+    # Function: updateSpreadsheet()
+    # Description: Updates the commodity section of the spreadsheet with new data
+    # Returns: None
+    ##########################
     def updateSpreadsheet(self):
         #The row to start entering the data on
         starting_row = 3
